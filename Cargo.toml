@@ -1,0 +1,8 @@
+[package]
+name = "fast-yuv442-to-rgb24"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5.3"
+

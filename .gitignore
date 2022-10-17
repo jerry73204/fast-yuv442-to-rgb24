@@ -1,0 +1,23 @@
+# rust
+**/*.rs.bk
+/target
+/rust-bin/*/target
+/rust-lib/*/target
+
+# editor
+*~
+.*~
+*.swp
+*.swo
+\#*#
+.vscode/
+
+# python
+/tracker/__pycache__
+*.pyc
+*.pyo
+__pycache__/
+
+# ninja
+.ninja_deps
+.ninja_log

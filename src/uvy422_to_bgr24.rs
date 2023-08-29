@@ -1,5 +1,7 @@
 use rayon::prelude::*;
-use std::simd::{f32x2, f32x8, simd_swizzle, u8x16, u8x4, u8x8, usizex8, Simd, SimdFloat};
+use std::simd::{
+    f32x2, f32x8, simd_swizzle, u8x16, u8x4, u8x8, usizex8, Simd, SimdFloat, SimdUint,
+};
 
 #[allow(non_camel_case_types)]
 type u8x2 = Simd<u8, 2>;
